@@ -642,8 +642,9 @@
 
     .team-icon-svg {
         fill: #AFB1B8;
-                max-width: 20px;
-                    max-height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     } 
 
     .team-icon-background {
@@ -673,8 +674,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        object-fit: contain;
-
     } 
 
     .footer-icon-background {
@@ -696,8 +695,17 @@
 
     .div-inline {
         display: inline-flex;
+        align-items: center;
+        width: 270px;
+        justify-content: space-around;
     }
     
+    .div-inline-footer {
+        display: inline-flex;
+        align-items: center;
+        width: 270px;
+        justify-content: flex-start;
+        }
     .center {
         text-align:center;
     }
