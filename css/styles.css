@@ -566,24 +566,44 @@
         fill: #2196F3;
     }
 
+
+    .icon-clients {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 170px;
+        height: 120px;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        background: none;
+    }
+
     
-    /* .icon.item1 {
-        background-position: 102px 25px;
-    } */
-
-
-
-        .icon-lorem {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 270px;
-            height: 120px;
-            background: #F5F4FA;
-            border-radius: 4px;
-        }
+    .icon-clients:hover {
+        fill: #2196F3;
+    }
     
-        .icon-lorem-svg {
-            width: 70px;
-            height: 70px;
-        }
+
+    .icon-clients-svg {
+        max-width: 170px;
+        max-height: 92px;
+    }
+
+
+    .icon-lorem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+        height: 120px;
+        background: #F5F4FA;
+        border-radius: 4px;
+    }
+    
+    .icon-lorem-svg {
+        width: 70px;
+        height: 70px;
+    }
+
+
+        
