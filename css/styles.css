@@ -204,6 +204,7 @@
         display: flex;
         justify-content: center;
         margin-left: -150px;
+        background: none;
     }
 
 
@@ -536,8 +537,9 @@
 
     .picture {
         background-image: url('/images/img17.jpg');
-        width: 1600px;
-        height: 600px;
+        max-width: 1600px;
+        max-height: 600px;
+        background-size: contain;
     }
 
 
