@@ -108,6 +108,14 @@
     }
 
 
+
+    .social-links:hover{
+        color: #2196f3;
+        cursor: pointer;
+    }
+
+
+
     .social-links .link:hover,
     .social-links .link:focus {
         color: #2196f3;
@@ -565,6 +573,7 @@
     
     .icon:hover {
         fill: #2196F3;
+        cursor: pointer;
     }
 
 
@@ -579,6 +588,8 @@
     
     .icon-clients:hover {
         fill: #2196F3;
+        border: 1px solid #2196F3;
+        cursor: pointer;
     }
     
 
@@ -598,17 +609,18 @@
         border-radius: 4px;
     }
     
+
     .icon-lorem-svg {
         width: 70px;
         height: 70px;
     }
 
 
-
     .header-icon {
         display: flex;
-        justify-content: center;
         align-items: center;
+        max-width: 16px;
+        max-height: 12px;
         object-fit: contain;
         color:#757575;
     }
@@ -616,8 +628,8 @@
 
     .header-icon:hover {
         fill: #2196F3;
+        cursor: pointer;
     }
-
 
 
     .footer-icon {
@@ -628,9 +640,10 @@
     }
 
 
-        
     .team-icon-svg {
         fill: #AFB1B8;
+                max-width: 20px;
+                    max-height: 20px;
     } 
 
     .team-icon-background {
@@ -644,17 +657,24 @@
     .team-icon-background:hover {
         background-color: #2196F3;
         fill: #ffffff;
+        cursor: pointer;
     }
 
 
 
     .footer-icon:hover {
         fill: #ffffff;
+        cursor: pointer;
     }
 
         
     .footer-icon-svg {
         fill: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+
     } 
 
     .footer-icon-background {
@@ -667,6 +687,17 @@
 
     .footer-icon-background:hover {
         background-color: #2196F3;
+        cursor: pointer;
     }
 
+    .div-inline a {
+        display: inline-flex;
+    }
 
+    .div-inline {
+        display: inline-flex;
+    }
+    
+    .center {
+        text-align:center;
+    }
