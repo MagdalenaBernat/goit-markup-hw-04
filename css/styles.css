@@ -357,8 +357,6 @@
     }
 
 
-
-
 /* Flexbox */
 
 
@@ -534,7 +532,7 @@
     
 
     .container-margin {
-        justify-content: space-between;
+        justify-content: center;
     }
 
 
@@ -573,7 +571,7 @@
         background-image: url('/images/img17.jpg');
         width: 1600px;
         height: 600px;
-        background-size: contain;
+        background-size: auto;
         background-repeat: no-repeat;
     }
 
