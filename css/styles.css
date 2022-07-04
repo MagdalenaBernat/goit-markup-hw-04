@@ -193,7 +193,6 @@
         font-weight: 900;
         line-height: 1,36em;
         letter-spacing: 0,06em;
-        white-space: pre;
         text-align: center;
         text-transform: capitalize;
         color: #ffffff;
@@ -202,8 +201,9 @@
         height: 120px;
         display: flex;
         justify-content: center;
-        margin-left: -150px;
+        margin-left: auto;
         background: none;
+        margin-top: 100px;
     }
 
 
@@ -217,8 +217,7 @@
         background-color: #ffffff;
         width: 270px;
         height: 16px;
-        padding-bottom: 10px;
-        margin: auto;
+        padding-top: 30px;
     }
 
 
@@ -231,7 +230,7 @@
         background-color: #ffffff;
         width: 270px;
         height: 75px;
-        margin: auto;
+        padding-top: 10px;
     }
 
 
@@ -303,7 +302,6 @@
 
     .team-background {
         background-color: #ffffff;
-        width: 270px;
         height: 428px;
     }
 
@@ -353,6 +351,12 @@
         margin-left: 24px;
     }
 
+    .tile:hover {
+        cursor: pointer;
+        box-shadow: 10px 10px 8px 2px rgba(0,0,0,0.3);
+    }
+
+
 
 
 /* Flexbox */
@@ -364,12 +368,17 @@
         box-sizing: border-box;
     }
 
+    
 
     .container {
         display: flex;
         flex-basis: 1200px;
+
     }
 
+    .container-space {
+        display: flex;
+    }
 
     .section {
         padding-top: 94px;
@@ -380,15 +389,39 @@
     .section1 {
         padding-top: 94px;
         padding-bottom: 94px;
+    }
+
+
+    .flex-column-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .flex-column-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+
+    .flex-column-footer {
+        display: flex;
         flex-direction: column;
     }
 
 
     .page-header {
-        align-items: center;
-        margin-left: 121px;
+        padding: 20px;
     }
 
+
+    .icon-center {
+        display: flex;
+        align-items: center;
+    }
 
     .page-header1 {
         align-items: center;
@@ -439,11 +472,14 @@
 
 
     .item1 {
-        align-items: center;
+        padding: 0px;
+        margin: 15px;
     }
 
     .item2 {
-        margin-left: -121px;
+        margin-left: auto;
+        align-items: center;
+        padding-right: 30px;
     }
     
     .buttons-flex {
@@ -498,19 +534,14 @@
     
 
     .container-margin {
-        margin-left: 215px;
-        margin-right: 215px;
         justify-content: space-between;
     }
+
 
     .container-item-margin {
         margin-left: 30px;
     }
 
-    /* .margin-team {
-        margin: 0px;
-        padding: 0px;
-    } */
 
     .block {
         display: flex;
@@ -538,19 +569,13 @@
     }
 
 
-    /* .code {
-            margin: 0px;
-            padding: 0px;
-    } */
-
-
     .picture {
         background-image: url('/images/img17.jpg');
-        max-width: 1600px;
-        max-height: 600px;
+        width: 1600px;
+        height: 600px;
         background-size: contain;
+        background-repeat: no-repeat;
     }
-
 
 
 /* icons */
@@ -558,7 +583,7 @@
     .container.icon {
         display: flex;
         justify-content: center;
-        padding: px;
+        align-items: center;
     }
     
 
@@ -583,6 +608,7 @@
         border: 1px solid #AFB1B8;
         border-radius: 4px;
         fill: #AFB1B8;
+        background-position: 50% 50%;
     }
 
     
@@ -594,8 +620,9 @@
     
 
     .icon-clients-svg {
-        max-width: 170px;
-        max-height: 92px;
+        width: 170px;
+        height: 120px;
+        padding-top: 25px;
     }
 
 
@@ -618,9 +645,8 @@
 
     .header-icon {
         display: flex;
-        align-items: center;
-        max-width: 16px;
-        max-height: 12px;
+        width: 16px;
+        height: 12px;
         object-fit: contain;
         color:#757575;
     }
@@ -645,6 +671,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-left: 15px;
+        padding-top: 3px;
     } 
 
     .team-icon-background {
@@ -674,6 +702,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        background-position: 50% 50%;
     } 
 
     .footer-icon-background {
@@ -703,9 +732,19 @@
     .div-inline-footer {
         display: inline-flex;
         align-items: center;
-        width: 270px;
-        justify-content: flex-start;
+        width: 206px;
+        justify-content: space-around;
         }
+
     .center {
-        text-align:center;
+        text-align: center;
+    }
+
+
+    .icon-center {
+        background-position: 50% 50%;
+    }
+
+    .margin-info {
+        margin-left: 70px;
     }
