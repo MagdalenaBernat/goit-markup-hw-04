@@ -672,6 +672,7 @@
         display: inline-flex;
     }
 
+    
     .div-inline {
         display: inline-flex;
         align-items: center;
@@ -679,12 +680,14 @@
         justify-content: space-around;
     }
     
+
     .div-inline-footer {
         display: inline-flex;
         align-items: center;
         width: 206px;
         justify-content: space-around;
         }
+
 
     .center {
         text-align: center;
@@ -695,11 +698,10 @@
         background-position: 50% 50%;
     }
 
+
     .margin-info {
         margin-left: 70px;
     }
-
-
 
 
     .section-heading {
