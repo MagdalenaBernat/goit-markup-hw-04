@@ -296,7 +296,10 @@
         height: 428px;
     }
 
+
+
         /* Only in Portfolio */
+
 
     .img-portfolio-background {
         background-color: #ffffff;
@@ -304,6 +307,7 @@
         height: 404px;
         border: 1px solid #EEEEEE;
     }
+
 
     .text-portfolio1 {
         font-size: 18px;
@@ -331,10 +335,12 @@
         margin-left: 24px;
     }
 
+
     .tile:hover {
         cursor: pointer;
         box-shadow: 10px 10px 8px 2px rgba(0,0,0,0.3);
     }
+
 
 
 /* Flexbox */
@@ -353,9 +359,11 @@
 
     }
 
+
     .container-space {
         display: flex;
     }
+
 
     .section {
         padding-top: 94px;
@@ -377,6 +385,7 @@
         margin: auto;
     }
 
+
     .flex-column-main {
         display: flex;
         flex-direction: column;
@@ -384,6 +393,7 @@
         align-items: center;
         margin: auto;
     }
+
 
     .flex-column-footer {
         display: flex;
@@ -400,6 +410,7 @@
         display: flex;
         align-items: center;
     }
+
 
     .page-header1 {
         align-items: center;
@@ -436,12 +447,14 @@
         margin: 15px;
     }
 
+
     .item2 {
         margin-left: auto;
         align-items: center;
         padding-right: 30px;
     }
     
+
     .buttons-flex {
         display: flex;
         justify-content: center;
@@ -455,6 +468,7 @@
         padding: 10px;
         margin-left: 10px;
     } */
+
 
     .title-section {
         flex-direction: column;
@@ -627,6 +641,7 @@
         padding-top: 3px;
     } 
 
+
     .team-icon-background {
         width: 44px;
         height: 44px;
@@ -640,7 +655,6 @@
         fill: #ffffff;
         cursor: pointer;
     }
-
 
 
     .footer-icon:hover {
@@ -686,7 +700,7 @@
         align-items: center;
         width: 206px;
         justify-content: space-around;
-        }
+    }
 
 
     .center {
