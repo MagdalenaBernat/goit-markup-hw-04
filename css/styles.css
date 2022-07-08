@@ -545,28 +545,15 @@
 
 
 /* icons */
-    
-    .container.icon {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
+     
 
-    .icon {
-        width: 270px;
-        height: 120px;
+    .icon1 {
+        width: 20px;
+        height: 20px;
         background-color: #F5F4FA;
         border-radius: 4px;
         fill: #2a2a2a;
     }
-    
-    
-    .icon:hover {
-        fill: #2196F3;
-        cursor: pointer;
-    }
-
 
     .icon-clients {
         width: 170px;
@@ -623,63 +610,7 @@
         cursor: pointer;
     }
 
-
-    .footer-icon {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        object-fit: contain;
-    }
-
-
-    .team-icon-svg {
-        fill: #AFB1B8;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-left: 15px;
-        padding-top: 3px;
-    } 
-
-
-    .team-icon-background {
-        width: 44px;
-        height: 44px;
-        border-radius: 50%;
-        background-color:#ffffff;
-    }
-
-
-    .team-icon-background:hover {
-        background-color: #2196F3;
-        fill: #ffffff;
-        cursor: pointer;
-    }
-
-
-    .footer-icon:hover {
-        fill: #ffffff;
-        cursor: pointer;
-    }
-
-        
-    .footer-icon-svg {
-        fill: #ffffff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-position: 50% 50%;
-        width: 44px;
-        height: 44px;
-        border-radius: 50%;
-        background-color: rgba(255, 255, 255, 0.1);
-    } 
-
-
-    .footer-icon-svg:hover {
-        background-color: #2196F3;
-        cursor: pointer;
-    }
+     
 
     
     .div-inline a {
@@ -729,3 +660,81 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
+
+
+        /* ---ICONS--- */
+
+/* --div ikonki-- */
+
+    .container.icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+        height: 120px;
+    }
+    
+
+    .team-icon-background {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color:#ffffff;
+    }
+
+
+    .team-icon-background:hover {
+        background-color: #2196F3;
+        fill: #ffffff;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .footer-icon-background {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+        
+        
+    .footer-icon-background:hover {
+        background-color: #2196F3;
+        fill: #ffffff;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+
+
+/* --ikonka-- */
+
+
+    .team-icon-svg {
+        fill: #AFB1B8;
+        display: flex;
+        object-fit: contain;
+        /* justify-content: center;
+        align-items: center; */
+    } 
+
+
+    .footer-icon-svg {
+        fill: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-position: 50% 50%;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+        
+    
