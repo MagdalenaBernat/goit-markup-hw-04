@@ -609,9 +609,7 @@
         fill: #2196F3;
         cursor: pointer;
     }
-
-     
-
+ 
     
     .div-inline a {
         display: inline-flex;
@@ -674,6 +672,14 @@
         height: 120px;
     }
     
+    .container.icon1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+        height: 120px;
+    }
+
 
     .team-icon-background {
         width: 44px;
@@ -734,12 +740,7 @@
         fill: #ffffff;
 
     }
-        
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        background-position: 50% 50%;
-                        width: 44px;
-                        height: 44px;
-                        border-radius: 50%;
-                        background-color: rgba(255, 255, 255, 0.1);
+
+    .container-icon:hover svg {
+        fill: #ffffff;
+    }
