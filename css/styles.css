@@ -680,6 +680,10 @@
         height: 44px;
         border-radius: 50%;
         background-color:#ffffff;
+        fill: #AFB1B8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 
@@ -698,6 +702,10 @@
         height: 44px;
         border-radius: 50%;
         background-color: rgba(255, 255, 255, 0.1);
+        fill: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
         
         
@@ -708,7 +716,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
     }
 
 
@@ -718,8 +725,6 @@
 
     .team-icon-svg {
         fill: #AFB1B8;
-        display: flex;
-        object-fit: contain;
         /* justify-content: center;
         align-items: center; */
     } 
@@ -727,14 +732,14 @@
 
     .footer-icon-svg {
         fill: #ffffff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-position: 50% 50%;
-        width: 44px;
-        height: 44px;
-        border-radius: 50%;
-        background-color: rgba(255, 255, 255, 0.1);
+
     }
         
-    
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-position: 50% 50%;
+                        width: 44px;
+                        height: 44px;
+                        border-radius: 50%;
+                        background-color: rgba(255, 255, 255, 0.1);
